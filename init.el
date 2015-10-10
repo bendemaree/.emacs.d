@@ -8,6 +8,8 @@
 (require 'evil)
 (evil-mode t)
 
+(load-theme 'base16-tomorrow-dark t)
+
 (defun ensure-package-installed (&rest packages)
     "Assure every package is installed, ask for installation if it’s not.
 
@@ -29,4 +31,5 @@ Return a list of installed packages or nil for every skipped package."
 (package-initialize)
 
 (ensure-package-installed 'evil
-			  'iedit)
+			  'iedit
+                          'base16-theme)
