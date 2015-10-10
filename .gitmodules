@@ -1,0 +1,6 @@
+[submodule "vendor/use-package"]
+	path = vendor/use-package
+	url = https://github.com/jwiegley/use-package
+[submodule "vendor/evil"]
+	path = vendor/evil
+	url = https://github.com/Bogdanp/evil.git
