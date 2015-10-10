@@ -10,6 +10,20 @@
 
 (load-theme 'base16-tomorrow-dark t)
 
+(setq-default
+ ;; Never use tabs
+ indent-tabs-mode nil
+
+ ;; Wrap long lines
+  truncate-lines nil)
+
+(setq
+ ;; Smoother scrolling
+ scroll-margin 0
+ scroll-step 1
+ scroll-conservatively 10000
+ scroll-preserve-screen-position 1)
+
 (defun ensure-package-installed (&rest packages)
     "Assure every package is installed, ask for installation if it’s not.
 
