@@ -13,6 +13,9 @@
 (setq package-enable-at-startup nil)
 (package-initialize)
 
+(use-package restclient
+  :load-path "vendor/restclient")
+
 (use-package evil
   :load-path "vendor/evil"
   :init

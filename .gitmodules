@@ -4,3 +4,6 @@
 [submodule "vendor/evil"]
 	path = vendor/evil
 	url = https://github.com/Bogdanp/evil.git
+[submodule "vendor/restclient"]
+	path = vendor/restclient
+	url = https://github.com/pashky/restclient.el.git
